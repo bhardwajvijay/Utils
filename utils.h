@@ -19,9 +19,6 @@ cv::Mat imhmin(cv::Mat im, double thresh);
 cv::Mat imreconstruct(cv::Mat marker, cv::Mat mask);
 cv::Mat imregionalmin(cv::Mat img);
 
-
-
-
-
+// Some additional useful C++ functions
 int findNumberofFiles(const wchar_t* file);
 #endif
